@@ -1,6 +1,6 @@
 
 def calculate_crowding(total_seats, occupied_seats):
-    if total_seats <= 0:
+    if total_seats <= 0:                             #오류 발생 제거
         return "전체 좌석 수가 올바르지 않습니다."
 
     if occupied_seats < 0 or occupied_seats > total_seats:
