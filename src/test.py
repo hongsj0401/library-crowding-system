@@ -8,7 +8,7 @@ def calculate_crowding(total_seats, occupied_seats):
 
     rate = occupied_seats / total_seats * 100
 
-    if rate >= 70:
+    if rate >= 70:                            #혼잡도를 나타내는 기준 세우기
         status = "혼잡"
     elif rate >= 30:
         status = "보통"
